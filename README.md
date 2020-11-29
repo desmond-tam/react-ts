@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Depowersoft React typescript bootstrapped
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<h1>Demo</h1>
+
+[![N|Solid](preview.jpg)](https://desmond-tam.github.io/react-ts/)
 
 ## Available Scripts
 
