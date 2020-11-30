@@ -8,6 +8,11 @@ import {
     CardTitle, CardSubtitle, CardLink, CardHeader, CardFooter
 } from 'reactstrap';
 
+interface ICard {
+    key:number;
+    title:string;
+    description:string;
+}
 
 const get_cards = async() => {
     return [
@@ -36,7 +41,7 @@ const get_cards = async() => {
 
 
 export function SimpleCard() {
-    const [cards,setCard] = useState([]);
+    const [cards,setCard] = useState<ICard[]>([]);
 
     useEffect(function effectFunction() {
         async function fetchCards() {
