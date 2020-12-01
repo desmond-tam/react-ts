@@ -57,7 +57,7 @@ export function SimpleCard() {
             [
                 {
                     key:cards.length+1,
-                    title:'basic example',
+                    title:`basic example ${cards.length+1}`,
                     description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo \
                      ligula \
                      eget dolor. Aenean massa.'
